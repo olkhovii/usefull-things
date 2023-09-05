@@ -1,0 +1,7 @@
+import pandas as pd
+import json
+
+data_json = pd.read_json('data.json')
+data_json.to_csv('data.csv')
+
+print(data_json)
